@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manu-Sort</title>
+</head>
+<body>
+    <h1>Welcome to Manu-Sort</h1>
+        <form  method="POST">
+
+            <label for="path">Path: </label>
+            <input type="text" id="path" name="path">
+
+            <br><br>
+
+            <span>File extensions</span>
+            
+            <span style="margin-left: 100px;">Folder name</span>
+            <br>
+
+            <div id="configurations">
+                <input id="ext" type="text" name="ext">
+                <input id="folder" type="text" name="folder">
+            </div>
+
+
+            <br>
+
+            <label for="Create">Create</label>
+            <input type="submit" value="Create">
+    </form>
+
+        <button id="remove">Remove configurations</button><br><br>
+        <button id="add" style="margin-top: 20px;">Add configurations</button><br><br>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>
